@@ -1,0 +1,30 @@
+[[package]]
+category = "main"
+description = "File support for asyncio."
+name = "aiofiles"
+optional = false
+python-versions = "*"
+version = "0.5.0"
+
+[[package]]
+category = "main"
+description = "Generate random strings in Python"
+name = "rstr"
+optional = false
+python-versions = "*"
+version = "2.2.6"
+
+[metadata]
+content-hash = "9f3c2a347aee43216cf8c0d02022096d7651d9a35fd6ffaff037cd1059d3baf9"
+lock-version = "1.0"
+python-versions = "^3.8"
+
+[metadata.files]
+aiofiles = [
+    {file = "aiofiles-0.5.0-py3-none-any.whl", hash = "sha256:377fdf7815cc611870c59cbd07b68b180841d2a2b79812d8c218be02448c2acb"},
+    {file = "aiofiles-0.5.0.tar.gz", hash = "sha256:98e6bcfd1b50f97db4980e182ddd509b7cc35909e903a8fe50d8849e02d815af"},
+]
+rstr = [
+    {file = "rstr-2.2.6-py2.py3-none-any.whl", hash = "sha256:3b3ec3bec215a4c7690bc72e1e006ce53a3edad79166dcbdf49bc614caf77f49"},
+    {file = "rstr-2.2.6.tar.gz", hash = "sha256:5dea822326e418e0c9816c9cd14ae9c7be2d4cd4334043c397f202bc2ae2eda4"},
+]
