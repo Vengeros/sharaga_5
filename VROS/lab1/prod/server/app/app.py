@@ -26,3 +26,6 @@ def file(file_path: pathlib.Path = Path(..., title='Path to file')):
 @app.get('/json')
 def json():
     return {str(i): str(i) for i in range(1000)}
+
+import datetime
+datetime.time(1)

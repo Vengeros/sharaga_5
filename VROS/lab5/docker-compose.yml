@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  pyspark:
+    build: app
+    user: root
+    working_dir: /wd
+    volumes:
+      - ./app/run:/wd/run
+    ports:
+    - 8888:8888
